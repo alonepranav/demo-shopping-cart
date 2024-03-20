@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10vw;
+    background-color: rgb(73, 71, 71);
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.header .links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header .links p{
+    text-decoration: none;
+    position: relative;
+    font-size: 1.3rem;
+}
+
+.header .link-text{
+    color: #fff;
+}
+
+.header .num{
+    position: absolute;
+    top: 30%;
+}
